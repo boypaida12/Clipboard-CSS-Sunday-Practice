@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img,
+h1,
+.header-paragraph,
+.buttons {
+    margin-bottom: 2rem;
+}
+
+
+button {
+    padding: .5rem .75rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+.ios-button {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border: 2px outset transparent;
+}
+
+.mac-button {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border: 2px outset transparent;
+}
+
+.track-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+
+}
+
+.desktop-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.monitor-paragraph-row  h2 {
+    margin-top: 5rem;
+    font-size: 1.75rem;
+}
+
+.monitor-image-row {
+    margin-right: 10rem;
+}
+
+.create-plain-sneak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.create-div, .plain-div, .sneak-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.plain-div {
+    margin-inline: 10rem;
+}
